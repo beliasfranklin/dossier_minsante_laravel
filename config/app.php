@@ -125,13 +125,13 @@ return [
     
     'providers' => [
     // ...
-   	 Spatie\Permission\PermissionServiceProvider::class,
-   	 Barryvdh\DomPDF\ServiceProvider::class,
+          Spatie\Permission\PermissionServiceProvider::class,
+          Barryvdh\DomPDF\ServiceProvider::class,
     ],
 
     'aliases' => [
     // ...
-   	 'PDF' => Barryvdh\DomPDF\Facade::class,
+        'PDF' => Barryvdh\DomPDF\Facade::class,
      ],
 
 ];
